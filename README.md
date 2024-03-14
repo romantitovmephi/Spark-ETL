@@ -1,4 +1,6 @@
-# Пайплайн (ETL) обработки файла `cars.csv`
+## Построение пайплайна (ETL) обработки данных с помощью PySpark и SparkSQL 
+
+`data/cars.csv` - источник
 
 Считает по каждому производителю (поле `manufacturer_name`):
 - количество объявлений
@@ -16,15 +18,15 @@
    (venv) spark-submit dataset_etl.py
    ```
 
-# Установка Pyspark локально из pip
+## Установка Pyspark локально из pip
 
-## Предварительные требования
+### Предварительные требования
 
 1. Python 3.6+
 
 2. Установленная Java версии 11 или выше
 
-## Установка Apache Spark
+### Установка Apache Spark
 
 1. Делаем виртуальное окружение Python:
 
@@ -57,11 +59,11 @@
    jupyter notebook
    ```
 
-# Запуск Spark из Docker
+## Запуск Spark из Docker
 
 Необходим установленный Docker
 
-## Установка Spark
+### Установка Spark
 
 Можно использовать образ [Jupyter notebooks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) с установленным Apache Spark.
 
